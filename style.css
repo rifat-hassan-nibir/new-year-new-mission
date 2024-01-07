@@ -1,5 +1,45 @@
+/* Global Styles */
+
 * {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   max-width: 1140px;
+}
+
+/* Header Section */
+header {
+  background-image: url("resources/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+  border-radius: 16px;
+}
+
+.header-content {
+  padding: 150px 150px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 16px;
+}
+
+header h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+header h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
 }
