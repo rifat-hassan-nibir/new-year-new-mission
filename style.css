@@ -16,10 +16,10 @@ header {
   border-radius: 16px;
 }
 
-.header-content {
+header div {
   padding: 150px 150px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.295);
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   border-radius: 16px;
 }
 
@@ -31,7 +31,7 @@ header h3 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 header h2 {
