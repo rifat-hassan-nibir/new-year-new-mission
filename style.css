@@ -280,3 +280,67 @@ header h2 {
   width: 120px;
   margin-top: 40px;
 }
+
+/* Holiday Seciton */
+.holiday-sale-text {
+  text-align: center;
+}
+
+.holiday-sale-text h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.holiday-sale-text h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.holiday-sale-text span {
+  color: #f00;
+}
+
+.holiday-sale-text p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  width: 800px;
+  margin-bottom: 64px;
+}
+
+.holiday-sale-images {
+  border-radius: 16px;
+  margin-bottom: 120px;
+}
+
+.holiday-sale-images-box-and-discount {
+  background-image: url("resources/Rectangle\ 2.png"),
+    url("resources/Rectangle\ 1.png");
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-position: bottom, top right;
+  padding: 50px 0;
+}
+
+.box {
+  width: 600px;
+}
+
+.discount {
+  transform: translate(-20%, -30%);
+}
