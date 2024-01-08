@@ -357,7 +357,7 @@ header h2 {
 }
 
 .best-gifts-row-1 img {
-  width: 370px;
+  width: 368px;
 }
 
 .best-gifts-row-2 {
@@ -368,7 +368,7 @@ header h2 {
 }
 
 .best-gifts-row-2 img {
-  width: 370px;
+  width: 368px;
 }
 
 .best-gifts-texts h4 {
@@ -407,4 +407,79 @@ header h2 {
 }
 .best-gifts img:hover {
   transform: scale(1.1);
+}
+
+/* Newsletter Section */
+
+.newsletter {
+  padding: 80px 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-bottom: 120px;
+}
+
+.newsletter img {
+  width: 150px;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.newsletter h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.newsletter p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+.email-newsletter {
+  height: 72px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-newsletter input {
+  margin-right: 0;
+  border: 0;
+  padding: 0 200px 0 0px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.email-newsletter button {
+  margin-left: 0;
+  border: 0;
+  padding: 0 56px 0 56px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
 }
