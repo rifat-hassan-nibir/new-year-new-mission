@@ -149,3 +149,46 @@ header h2 {
 .img-2024 img {
   width: 100%;
 }
+
+/* Event Section Styles */
+.event {
+  padding: 100px 285px 100px 285px;
+  text-align: center;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  margin-bottom: 120px;
+}
+
+.event h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.event span {
+  color: #f00;
+}
+
+.event button {
+  padding: 16px 32px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #f00;
+  margin-top: 48px;
+}
