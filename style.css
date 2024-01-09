@@ -340,14 +340,20 @@ main {
   background-repeat: no-repeat;
   background-position: bottom, top right;
   padding: 78px 0;
+  position: relative;
 }
 
 .box {
   width: 600px;
+  position: relative;
+  top: 40px;
+  left: 50px;
 }
 
 .discount-img {
-  transform: translate(-20%, -60%);
+  position: absolute;
+  top: 70px;
+  right: 270px;
 }
 
 /* Best Gifts Section */
